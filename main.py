@@ -83,4 +83,10 @@ if query:
         st.header("Answer")
         st.subheader(result["answer"])
 
-        
+        # Display sources, if available
+        sources = result.get("sources", "")
+        if sources:
+            st.subheader("Sources:")
+            sources_list = sources.split("\n")  # Split the sources by new line
+            for source in sources_list:
+                st.write(source)
