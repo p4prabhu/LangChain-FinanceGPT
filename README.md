@@ -43,6 +43,9 @@ A Streamlit-based application that enables users to extract, process, and query 
        .gitignore
        .env
      ```
+7. **6. Run the Streamlit Application
+   ```bash
+   streamlit run main.py
    
    
    
