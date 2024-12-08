@@ -18,17 +18,17 @@ A Streamlit-based application that enables users to extract, process, and query 
 
 ## Steps
 ### 1. Clone the Repository
-1. **Clone this repository** to your local machine using:
+1. **Clone this repository** to your local machine using:**
    ```bash
    git clone https://github.com/p4prabhu/LangChain-FinanceGPT.git
-2. **Navigate to the project directory:
+2. **Navigate to the project directory:**
    ```bash
    cd LangChain-FinanceGPT
-3. **Create and activate a virtual environment:
+3. **Create and activate a virtual environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate
-4. **Install the required dependencies using pip:
+4. **Install the required dependencies using pip:**
    ```bash
    pip install -r requirements.txt
 5. **Set up your OpenAI API key**:
