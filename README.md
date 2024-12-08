@@ -25,7 +25,5 @@ A Streamlit-based application that enables users to extract, process, and query 
 
 
 
-
-
   
 
