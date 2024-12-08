@@ -11,3 +11,10 @@ A Streamlit-based application that enables users to extract, process, and query 
 - **Persistent Index**: Saves the FAISS index locally for reuse without reprocessing the URLs.
 - **Environment Security**: Includes a `.gitignore` file to exclude sensitive `.env` files from being pushed to GitHub.
 
+### Prerequisites
+
+- **Python 3.8 or higher**: Ensure you have Python installed on your system. [Download Python here](https://www.python.org/downloads/) if not already installed.
+- **OpenAI API Key**: Obtain an API key by signing up at [OpenAI](https://openai.com/). This key will be required for the application to function.
+
+  
+
