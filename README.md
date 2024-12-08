@@ -35,6 +35,7 @@ A Streamlit-based application that enables users to extract, process, and query 
    
    - **Create a file named .env in the project root.
    - **Add your API key in the following format:
+     ```bash
      OPENAI_API_KEY=""
    
    
