@@ -46,6 +46,35 @@ A Streamlit-based application that enables users to extract, process, and query 
 7. **Run the Streamlit Application**
    ```bash
    streamlit run main.py
+
+## Usage
+
+1. **Input URLs**:
+   - Add up to three news article URLs in the sidebar.
+
+2. **Process the URLs**:
+   - Click the **"Process URLs"** button to fetch and process the articles.
+
+3. **Ask Questions**:
+   - Enter your question in the input box to query the articles.
+
+4. **View Answers and Sources**:
+   - See the extracted answer and the relevant sources.
+
+
+
+## File Structure
+
+```bash
+news-research-tool/
+├── faiss_index_openai/         # Directory for storing FAISS index (generated during runtime)
+├── vector_index/               # Placeholder for saved vector files
+├── main.py                     # Main Streamlit application
+├── requirements.txt            # List of dependencies
+├── .env                        # API key file (not included in Git)
+├── .gitignore                  # Ensures `.env` and other files are not pushed
+├── README.md                   # Project documentation
+
    
    
    
