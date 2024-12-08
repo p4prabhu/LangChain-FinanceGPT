@@ -32,6 +32,7 @@ A Streamlit-based application that enables users to extract, process, and query 
    ```bash
    pip install -r requirements.txt
 5. **Set up your OpenAI API key:
+   
    - **Create a file named .env in the project root.
    - **Add your API key in the following format:
      OPENAI_API_KEY=""
