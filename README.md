@@ -37,8 +37,12 @@ A Streamlit-based application that enables users to extract, process, and query 
      ```plaintext
      OPENAI_API_KEY=your_api_key_here
      ```
-   
-
+6. **Add .env to .gitignore
+   The repository already includes a .gitignore file that excludes .env to ensure sensitive information is not pushed to GitHub. Confirm that .env is listed in the .gitignore      
+    ```plaintext
+       .gitignore
+       .env
+     ```
    
    
    
