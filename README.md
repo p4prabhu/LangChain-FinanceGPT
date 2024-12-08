@@ -17,25 +17,15 @@ A Streamlit-based application that enables users to extract, process, and query 
 - **OpenAI API Key**: Obtain an API key by signing up at [OpenAI](https://openai.com/). This key will be required for the application to function.
 
 ## Steps
+### 1. Clone the Repository
+bash
+git clone https://github.com/your-username/news-research-tool.git
+cd news-research-tool
 
-1. **Input URLs**:
-   - Open the application in your browser (usually `http://localhost:8501` after running `streamlit run main.py`).
-   - Enter up to three news article URLs in the sidebar.
 
-2. **Process URLs**:
-   - Click the **Process URLs** button to fetch and process the content of the entered URLs.
-   - The application will split the content into manageable chunks for processing.
 
-3. **Ask Questions**:
-   - Use the query box in the main interface to ask questions related to the articles.
-   - Example: *"What is the main topic of the article?"* or *"What are the key highlights?"*
 
-4. **View Answers**:
-   - The application will retrieve answers to your questions using OpenAI embeddings and FAISS.
-   - The result includes both the answer and the sources from which the information was extracted.
 
-5. **Reuse the Index (Optional)**:
-   - The FAISS index is saved locally (`faiss_index_openai` directory).
-   - You can reuse it in future sessions without reprocessing the same URLs.
+
   
 
