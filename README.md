@@ -18,9 +18,9 @@ A Streamlit-based application that enables users to extract, process, and query 
 
 ## Steps
 ### 1. Clone the Repository
-bash
-git clone https://github.com/your-username/news-research-tool.git
-cd news-research-tool
+1. **Clone this repository** to your local machine using:
+   ```bash
+   git clone https://github.com/p4prabhu/LangChain-FinanceGPT.git
 
 
 
