@@ -66,7 +66,7 @@ A Streamlit-based application that enables users to extract, process, and query 
 ## File Structure
 
 ```bash
-news-research-tool/
+LangChain-FinanceGPT/
 ├── faiss_index_openai/         # Directory for storing FAISS index (generated during runtime)
 ├── vector_index/               # Placeholder for saved vector files
 ├── main.py                     # Main Streamlit application
@@ -74,7 +74,20 @@ news-research-tool/
 ├── .env                        # API key file (not included in Git)
 ├── .gitignore                  # Ensures `.env` and other files are not pushed
 ├── README.md                   # Project documentation
+```
 
+
+## File Structure
+
+- **Streamlit**: For building the user interface.
+- **LangChain**: For handling document splitting and retrieval chains.
+- **OpenAI**: For generating embeddings.
+- **FAISS**: For efficient vector indexing and similarity search.
+- **dotenv**: For managing sensitive environment variables.
+
+Install all dependencies using:
+```bash
+pip install -r requirements.txt
    
    
    
